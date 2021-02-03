@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css2?family=Nosifer&family=Open+Sans:wght@300;400;600&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  max-width: 50%;
+  padding: 0 15px;
+  margin: 100px auto;
+
+}
+.wrapper {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-gap: 20px;
+  padding: 1rem;
+}
+.hour {
+  background: #9b59b6;
+  color: #fff;
+  border-radius: 5px;
+}
+.minut {
+  background: #16a085;
+  color: #fff;
+  border-radius: 5px;
+}
+.second {
+  background: #2980b9;
+  color: #fff;
+  border-radius: 5px;
+}
+.session {
+  background :#ff7979;
+  color: #fff;
+  border-radius: 4px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+#session {
+  font-size: 2rem;
+}
+h2 {
+  font-size: 4rem;
+  text-align: center;
+  font-family: 'Open Sans', sans-serif;
+  padding: 10px;
+}
+.name {
+  display: block;
+  text-align: center;
+  padding: 15px 0;
+  font-family: 'Open Sans';
+  font-size: 15px;
+}
+.progress {
+  background: linear-gradient(to right,#ff3f34, #f1324f9c, #EA2027);
+  height: 6px;
+  border-radius: 5px;
+}

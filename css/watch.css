@@ -74,7 +74,17 @@ h2 {
     grid-gap: 10px;
   }
 }
-
+@media screen and (max-width: 425px) {
+  .container {
+    width: 100% !important;
+  }
+  .wrapper {
+    grid-template-columns: repeat(2, 1fr);
+    width: 100%;
+    grid-gap: 15px;
+    margin-bottom: 1rem;
+  }
+}
 @media screen and (max-width: 320px) {
   .container {
     width: 100% !important;
